@@ -1,17 +1,17 @@
 settings:
-  title: 'Status Page'
+  title: 'Sistem Bilgilendirme Sayfası'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
-  monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
-  dayInHistogramOperational: 'All good'
+  allmonitorsOperational: 'Tüm Sistemler Stabil'
+  notAllmonitorsOperational: 'Görünüşe Göre Bazı Sistemlerde Sorun Mevcut.'
+  monitorLabelOperational: 'Stabil'
+  monitorLabelNotOperational: 'Stabil Değil'
+  monitorLabelNoData: 'Veri Yok'
+  dayInHistogramNoData: 'Veri Yok'
+  dayInHistogramOperational: 'Her şey Mükemmel.'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
